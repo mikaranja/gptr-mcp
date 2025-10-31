@@ -13,6 +13,8 @@ from typing import Dict, Any, Optional, List
 from dotenv import load_dotenv
 from fastmcp import FastMCP
 from gpt_researcher import GPTResearcher
+from langchain.schema import Document
+
 
 # Load environment variables
 load_dotenv()

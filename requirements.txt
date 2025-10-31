@@ -1,6 +1,7 @@
 # GPT Researcher dependencies
 gpt-researcher>=0.14.0
 python-dotenv
+langchain
 
 # MCP dependencies
 fastmcp>=2.8.0

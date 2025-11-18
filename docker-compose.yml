@@ -4,7 +4,7 @@ services:
   gptr-mcp:
     build: .
     ports:
-      - "8000:8000"
+      - "8001:8000"
     environment:
       - MCP_TRANSPORT=sse
       - DOCKER_CONTAINER=true
